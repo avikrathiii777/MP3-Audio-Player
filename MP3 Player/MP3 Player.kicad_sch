@@ -4211,7 +4211,7 @@
 		(uuid "fafb3f7f-780f-4a91-8a91-6f4cff72acab")
 	)
 	(no_connect
-		(at 91.44 153.67)
+		(at 135.89 185.42)
 		(uuid "fc3b08bb-867e-459a-bf68-e402768aad9a")
 	)
 	(wire
@@ -5055,7 +5055,7 @@
 		(uuid "4814f844-5407-4160-ad8d-957bf9bda609")
 	)
 	(label "SW_VBAT"
-		(at 91.44 148.59 0)
+		(at 135.89 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5065,7 +5065,7 @@
 		(uuid "508b17a8-605a-4792-894f-46e9a756c3e2")
 	)
 	(label "VBAT"
-		(at 81.28 151.13 0)
+		(at 125.73 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5303,7 +5303,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 52.07 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -5383,7 +5383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 275.59 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5541,7 +5541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 275.59 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5747,7 +5747,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 86.36 151.13 0)
+		(at 130.81 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5758,7 +5758,7 @@
 		(fields_autoplaced yes)
 		(uuid "461cb274-3299-4da5-9a6e-59fd0ec2064a")
 		(property "Reference" "SW2"
-			(at 86.36 142.24 0)
+			(at 130.81 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5768,7 +5768,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 86.36 144.78 0)
+			(at 130.81 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5777,8 +5777,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 151.13 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+			(at 130.81 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5789,7 +5789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 158.75 0)
+			(at 130.81 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5800,7 +5800,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 86.36 151.13 0)
+			(at 130.81 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6016,7 +6016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 106.68 169.2148 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +6098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 159.512 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -6180,7 +6180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 56.642 185.42 90)
 			(hide yes)
 			(show_name no)
@@ -6260,7 +6260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 250.19 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6342,7 +6342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 82.2452 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6579,7 +6579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 36.83 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6781,7 +6781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 52.07 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -6861,7 +6861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 250.19 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7177,7 +7177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 74.93 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7341,7 +7341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 275.59 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7852,7 +7852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 120.142 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -7932,7 +7932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 73.66 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8507,7 +8507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 122.8852 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8587,7 +8587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 247.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8981,7 +8981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 177.8 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9274,7 +9274,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e06dcf1c-3859-4fb5-872b-2a6e1795ad39")
 		(property "Reference" "#FLG01"
 			(at 48.26 75.565 0)
@@ -9288,7 +9287,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 48.26 72.39 0)
+			(at 48.514 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9374,7 +9373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 78.74 165.4048 0)
 			(hide yes)
 			(show_name no)
@@ -9454,7 +9453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3D-SF"
 			(at 273.05 40.64 0)
 			(hide yes)
 			(show_name no)
