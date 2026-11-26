@@ -16,7 +16,7 @@
 #define BTN_VOLUP 25
 #define BTN_VOLDN 27
 
-const char* BT_DEVICE_NAME = "JBL Tune 770NC"
+const char* BT_DEVICE_NAME = "JBL Tune 770NC";
 
 A2DPStream out;
 MP3DecoderHelix mp3;
@@ -56,7 +56,7 @@ void playTrack(int index) {
   if(currentFile) currentFile.close();
   currentFile = SD.open(playlist[currentTrack]);
   if (currentFile) {
-    Serial.printIn("Now playing: " + playlist[currentTrack]);
+    Serial.println("Now playing: " + playlist[currentTrack]);
     decoder.begin();
     copier.begin(decoder, currentFile);
     isPlaying = true;
@@ -74,7 +74,7 @@ void setup() {
 
   SPI.begin(SD_SCK, SD_MISO, SD_MOSI, SD_CS);
   if (!SD.begin(SD_CS)) {
-    Serial.printIn("SD Card Mount Failed");
+    Serial.println("SD Card Mount Failed");
     while (true) delay(1000);
   }
 
@@ -108,7 +108,7 @@ void handleButtons() {
   else if (digitalRead(BTN_PAUSE) == LOW) {
     lastButtonTime = millis();
     isPlaying = false;
-    Serial.println("Paused")
+    Serial.println("Paused");
   }
   else if (digitalRead(BTN_NEXT) == LOW) {
     lastButtonTime = millis();
@@ -116,18 +116,18 @@ void handleButtons() {
   }
   else if (digitalRead(BTN_PREV) == LOW) {
     lastButtonTime = millis();
-    playTrack(currntTrack - 1);
+    playTrack(currentTrack - 1);
   }
   else if (digitalRead(BTN_VOLUP) == LOW) {
     lastButtonTime = millis();
     volumeLevel = min(100, volumeLevel + 10);
-    out.setVolume(volumeLevel / 100.0);
+    out.source().set_volume(volumeLevel);
     Serial.printf("Volume: %d%%\n", volumeLevel);
   }
   else if (digitalRead(BTN_VOLDN) == LOW) {
     lastButtonTime = millis();
     volumeLevel = max(0, volumeLevel - 10);
-    out.setVolume(volumeLevel / 100.0);
+    out.source().set_volume(volumeLevel);
     Serial.printf("Volume: %d%%\n", volumeLevel);
   }
 }
